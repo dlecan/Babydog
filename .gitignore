@@ -2,3 +2,6 @@ bin
 *.koi
 MySql2McKoi/log
 BabyDog/log
+PhenoChiot/sql/phenochiot.sql
+PhenoChiot/*.log
+*-src.zip

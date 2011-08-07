@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+	<champ>
+		<nom></nom>
+		<sql></sql>
+		<largeur></largeur>
+		<type></type>
+		<hauteur></hauteur>
+	</champ>
+-->
+
+<fiche>
+	<champ>
+		<nom>Age</nom>
+		<sql>chiot_age</sql>
+		<largeur>5</largeur>
+		<type>numerique</type>
+	</champ>
+	<champ>
+		<nom>Taille min</nom>
+		<sql>chiot_taille_min</sql>
+		<largeur>6</largeur>
+		<type>numerique</type>
+	</champ>
+	<champ>
+		<nom>Taille max</nom>
+		<sql>chiot_taille_max</sql>
+		<largeur>6</largeur>
+		<type>numerique</type>
+	</champ>
+	<champ>
+		<nom>Longueur SI min</nom>
+		<sql>chiot_longueur_si_min</sql>
+		<largeur>6</largeur>
+		<type>numerique</type>
+	</champ>
+	<champ>
+		<nom>Longueur SI max</nom>
+		<sql>chiot_longueur_si_max</sql>
+		<largeur>6</largeur>
+		<type>numerique</type>
+	</champ>
+	<champ>
+		<nom>Poids min</nom>
+		<sql>chiot_poids_min</sql>
+		<largeur>6</largeur>
+		<type>numerique</type>
+	</champ>
+	<champ>
+		<nom>Poids max</nom>
+		<sql>chiot_poids_max</sql>
+		<largeur>6</largeur>
+		<type>numerique</type>
+	</champ>
+	<champ>
+		<nom>Aspect général</nom>
+		<sql>chiot_aspect</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Profil</nom>
+		<sql>chiot_profil</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Proportions</nom>
+		<sql>chiot_proportion</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Format</nom>
+		<sql>chiot_format</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête</nom>
+		<sql>chiot_tete</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête, crâne</nom>
+		<sql>chiot_tete_crane</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête, stop</nom>
+		<sql>chiot_tete_stop</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête, face</nom>
+		<sql>chiot_tete_face</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête, truffe</nom>
+		<sql>chiot_tete_truffe</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête, museau</nom>
+		<sql>chiot_tete_museau</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête, chanfrein</nom>
+		<sql>chiot_tete_chanfrein</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête, lèvres</nom>
+		<sql>chiot_tete_levres</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête, mâchoires/dents</nom>
+		<sql>chiot_tete_machoires</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête, joues</nom>
+		<sql>chiot_tete_joues</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête, yeux</nom>
+		<sql>chiot_tete_yeux</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Tête, oreilles</nom>
+		<sql>chiot_tete_oreilles</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Cou</nom>
+		<sql>chiot_cou</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Corps</nom>
+		<sql>chiot_corps</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Corps, ligne dessus</nom>
+		<sql>chiot_corps_ligne_dessus</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Corps, garrot</nom>
+		<sql>chiot_corps_garrot</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Corps, dos</nom>
+		<sql>chiot_corps_dos</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Corps, rein</nom>
+		<sql>chiot_corps_rein</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Corps, croupe</nom>
+		<sql>chiot_corps_croupe</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Corps, poitrine</nom>
+		<sql>chiot_corps_poitrine</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Corps, ligne dessous</nom>
+		<sql>chiot_corps_ligne_dessous</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Corps, ventre</nom>
+		<sql>chiot_corps_ventre</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Corps, flancs</nom>
+		<sql>chiot_corps_flancs</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Corps, queue</nom>
+		<sql>chiot_corps_queue</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres</nom>
+		<sql>chiot_membres</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres antérieurs</nom>
+		<sql>chiot_membres_anterieurs</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres ant, vue d'ensemble</nom>
+		<sql>chiot_membres_ant_ensemble</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres ant, épaule</nom>
+		<sql>chiot_membres_ant_epaule</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres ant, bras</nom>
+		<sql>chiot_membres_ant_bras</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres ant, coude</nom>
+		<sql>chiot_membres_ant_coude</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres ant, avant-bras</nom>
+		<sql>chiot_membres_ant_avant_bras</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres ant, carpe</nom>
+		<sql>chiot_membres_ant_carpe</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres ant, métacarpe</nom>
+		<sql>chiot_membres_ant_metacarpe</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres ant, pieds</nom>
+		<sql>chiot_membres_ant_pieds</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres postérieurs</nom>
+		<sql>chiot_membres_posterieurs</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres post, vue d'ensemble</nom>
+		<sql>chiot_membres_post_ensemble</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres post, cuisse</nom>
+		<sql>chiot_membres_post_cuisse</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres post, jambe</nom>
+		<sql>chiot_membres_post_jambe</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres post, genou</nom>
+		<sql>chiot_membres_post_genou</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres post, jarret</nom>
+		<sql>chiot_membres_post_jarret</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres post, tarse</nom>
+		<sql>chiot_membres_post_tarse</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres post, métatarse</nom>
+		<sql>chiot_membres_post_metatarse</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Membres post, pieds</nom>
+		<sql>chiot_membres_post_pieds</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Allures</nom>
+		<sql>chiot_allures</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Peau</nom>
+		<sql>chiot_peau</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Robe</nom>
+		<sql>chiot_robe</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Robe, poils</nom>
+		<sql>chiot_robe_poils</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Robe, couleur</nom>
+		<sql>chiot_robe_couleur</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+	<champ>
+		<nom>Remarques</nom>
+		<sql>chiot_remarques</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>90</hauteur>
+	</champ>
+</fiche>

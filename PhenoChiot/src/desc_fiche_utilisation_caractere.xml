@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+	<champ>
+		<nom></nom>
+		<sql></sql>
+		<largeur></largeur>
+		<type></type>
+		<hauteur></hauteur>
+	</champ>
+-->
+<fiche>
+	<champ>
+		<nom>Historique et origine</nom>
+		<sql>util_carac_historique</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>120</hauteur>
+	</champ>
+	<champ>
+		<nom>Utilisation et aptitude</nom>
+		<sql>util_carac_aptitude</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>120</hauteur>
+	</champ>
+	<champ>
+		<nom>Comportement et caractère</nom>
+		<sql>util_carac_comportement</sql>
+		<largeur>-1</largeur>
+		<type>texte</type>
+		<hauteur>120</hauteur>
+	</champ>
+</fiche>
