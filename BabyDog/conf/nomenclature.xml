@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nomenclature>
+	<!--groupe id="" nom="">
+		<section id="" nom="">
+			<sssection id="" nom=""/>
+		</section>
+	</groupe-->
+	<groupe id="1" nom="Chiens de berger et de bouvier (sauf chiens de bouvier suisses)">
+		<section id="1" nom="Chiens de berger"/>
+		<section id="2" nom="Chiens de bouvier (sauf chiens de bouvier suisses)"/>
+	</groupe>
+	<groupe id="2" nom="Chiens de type Pinscher et Schnauzer - Molossoïdes - Chiens de montagne et de bouvier suisses et autres races">
+		<section id="1" nom="Type Pinscher et Schnauzer">
+			<sssection id="1" nom="Pinscher"/>
+			<sssection id="2" nom="Schnauzer"/>
+			<sssection id="3" nom="Smoushond"/>
+			<sssection id="4" nom="Tchiorny Terrier"/>
+		</section>
+		<section id="2" nom="Molossoïdes">
+			<sssection id="1" nom="Type dogue"/>
+			<sssection id="2" nom="Type montagne"/>
+		</section>
+		<section id="3" nom="Chien de montagne et de bouvier suisses"/>
+		<section id="4" nom="Autres races"/>
+	</groupe>
+	<groupe id="3" nom="Terriers">
+		<section id="1" nom="Terriers de grande et moyenne taille"/>
+		<section id="2" nom="Terriers de petite taille"/>
+		<section id="3" nom="Terriers de type bull"/>
+		<section id="4" nom="Terriers d'agrément"/>
+	</groupe>
+	<groupe id="4" nom="Teckels"/>
+	<groupe id="5" nom="Chiens de type Spitz et de type primitif">
+		<section id="1" nom="Chiens nordiques de traîneau"/>
+		<section id="2" nom="Chiens nordiques de chasse"/>
+		<section id="3" nom="Chiens nordiques de garde et de berger"/>
+		<section id="4" nom="Spitz européens"/>
+		<section id="5" nom="Spitz asiatiques et races apparentées"/>
+		<section id="6" nom="Type primitif"/>
+		<section id="7" nom="Type primitif - Chiens de chasse"/>
+		<section id="8" nom="Chiens de chasse de type primitif avec un épi linéaire sur le dos"/>
+	</groupe>
+	<groupe id="6" nom="Chiens courants, chiens de recherche au sang et races apparentées">
+		<section id="1" nom="Chiens courants">
+			<sssection id="1" nom="Chiens courants de grande taille"/>
+			<sssection id="2" nom="Chiens courants de taille moyenne"/>
+			<sssection id="3" nom="Chiens courants de petite taille"/>
+		</section>
+		<section id="2" nom="Chiens de recherche au sang"/>
+		<section id="3" nom="Races apparentées"/>
+	</groupe>
+	<groupe id="7" nom="Chiens d'arrêt">
+		<section id="1" nom="Chiens d'arrêt continentaux">
+			<sssection id="1" nom="Type Braque"/>
+			<sssection id="2" nom="Type Epagneul"/>
+			<sssection id="3" nom="Type Griffon"/>
+		</section>
+		<section id="2" nom="Chiens d'arrêt britanniques et irlandais">
+			<sssection id="1" nom="Pointer"/>
+			<sssection id="2" nom="Setter"/>
+		</section>
+	</groupe>
+	<groupe id="8" nom="Chiens rapporteurs de gibier - Chiens leveurs de gibier - Chiens d'eau">
+		<section id="1" nom="Rapporteurs de gibier"/>
+		<section id="2" nom="Chiens leveurs de gibier et broussailleurs"/>
+		<section id="3" nom="Chiens d'eau"/>
+	</groupe>
+	<groupe id="9" nom="Chiens d'agrément et de compagnie">
+		<section id="1" nom="Bichons et apparentés">
+			<sssection id="1" nom="Bichons"/>
+			<sssection id="2" nom="Coton de Tuléar"/>
+			<sssection id="3" nom="Petit chien lion"/>
+		</section>
+		<section id="2" nom="Caniche"/>
+		<section id="3" nom="Chiens belges de petit format">
+			<sssection id="1" nom="Griffons"/>
+			<sssection id="2" nom=" Petit Brabançon"/>
+		</section>
+		<section id="4" nom="Chiens nus"/>
+		<section id="5" nom="Chiens du Tibet"/>
+		<section id="6" nom="Chihuahueño"/>
+		<section id="7" nom="Epagneuls anglais d'agrément"/>
+		<section id="8" nom="Epagneul japonais et pékinois"/>
+		<section id="9" nom="Epagneul nain continental"/>
+		<section id="10" nom="Kromfohrländer"/>
+		<section id="11" nom="Molossoïdes de petit format"/>
+	</groupe>
+	<groupe id="10" nom="Lévriers">
+		<section id="1" nom="Lévriers à poil long ou frangé"/>
+		<section id="2" nom="Lévriers à poil dur"/>
+		<section id="3" nom="Lévriers à poil court"/>
+	</groupe>
+</nomenclature>

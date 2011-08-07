@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="com.dlecan.phenochiot.consultation"
+   name="BabyDog"
+   version="1.0.0"
+   provider-name="D. Lecan"
+   class="com.dlecan.phenochiot.consultation.PluginBabyDog">
+   <runtime>
+      <library name="babydog.jar">
+         <export name="*"/>
+      </library>
+      <library name="lib/gnu-regexp-1.1.4.jar">
+         <export name="*"/>
+      </library>
+      <library name="lib/mckoidb.jar">
+         <export name="*"/>
+      </library>
+   </runtime>
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.runtime.compatibility"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.swt"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.workbench"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.forms"/>
+   </requires>
+   <extension
+         point="org.eclipse.core.runtime.products"
+         id="produit">
+      <product
+            name="%productName"
+            application="com.dlecan.phenochiot.consultation.BabyDog">
+         <property
+               name="appName"
+               value="%swtAppName"/>
+         <property
+               name="windowImages"
+               value="icons/babydog16inv.png,icons/babydog32.png"/>
+         <property
+               name="aboutText"
+               value="%aboutText"/>
+         <property
+               name="aboutImage"
+               value="icons/about.png"/>
+         <property
+			   name="preferenceCustomization"
+			   value="plugin_customization.ini"/>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.applications"
+         id="BabyDog"
+         name="%appName">
+      <application>
+         <run
+            class="com.dlecan.phenochiot.consultation.BabyDogApp">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            id="com.dlecan.phenochiot.consultation.babydogPerspective"
+            name="%perspectives.babydog.nom"
+            class="com.dlecan.phenochiot.consultation.BabyDogPerspectiveFactory"
+            fixed="true"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="com.dlecan.phenochiot.consultation"
+            name="%vues.categorie.nom"/>
+      <view
+            allowMultiple="false"
+            class="com.dlecan.phenochiot.consultation.vue.VueAccueil"
+            icon="icons/babydog16inv.png"
+            category="com.dlecan.phenochiot.consultation"
+            name="%vues.accueil.nom"
+            id="com.dlecan.phenochiot.consultation.vueAccueil"/>
+      <view
+            class="com.dlecan.phenochiot.consultation.vue.recherche.VueRecherche"
+            icon="icons/babydog16inv.png"
+            category="com.dlecan.phenochiot.consultation"
+            name="%vues.recherche.nom"
+            id="com.dlecan.phenochiot.consultation.vueRecherche"/>
+      <view
+            allowMultiple="true"
+            class="com.dlecan.phenochiot.consultation.vue.race.VueRace"
+            icon="icons/babydog16.png"
+            category="com.dlecan.phenochiot.consultation"
+            name="%vues.race.nom"
+            id="com.dlecan.phenochiot.consultation.vueRace"/>
+   </extension>
+</plugin>

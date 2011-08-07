@@ -1,0 +1,3 @@
+com.dlecan.phenochiot.consultation/debug = false
+com.dlecan.phenochiot.consultation/debug/flag = false
+com.dlecan.phenochiot.consultation/debug/filter = *

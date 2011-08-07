@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="com.dlecan.ViewProperties"
+   name="ViewProperties Plug-in"
+   version="1.0.0"
+   provider-name="Damien Lecan"
+   class="com.dlecan.ViewProperties.ViewPropertiesPlugin">
+
+   <runtime>
+      <library name="ViewProperties.jar"/>
+   </runtime>
+   <requires>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui"/>
+   </requires>
+
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="Editeur .properties"
+            icon="icons/icone.gif"
+            extensions="properties"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="com.dlecan.ViewProperties.editors.PropertiesEditor"
+            id="com.dlecan.ViewProperties.editors.PropertiesEditor">
+      </editor>
+   </extension>
+
+</plugin>

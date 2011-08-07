@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<comparaison>
+	<!--champ nom="">
+		<critere nom=""></critere>
+	</champ-->
+	<champ nom="Généralités">
+		<critere nom="Aspect général">chiot_aspect</critere>
+		<critere nom="Profil">chiot_profil</critere>
+		<critere nom="Proportion">chiot_proportion</critere>
+	</champ>
+	<champ nom="Tête">
+		<critere>chiot_tete</critere>
+		<critere nom="Crâne">chiot_tete_crane</critere>
+		<critere nom="Stop">chiot_tete_stop</critere>
+		<critere nom="Face">chiot_tete_face</critere>
+		<critere nom="Truffe">chiot_tete_truffe</critere>
+		<critere nom="Chanfrein">chiot_tete_chanfrein</critere>
+		<critere nom="Museau">chiot_tete_museau</critere>
+		<critere nom="Lèvres">chiot_tete_levres</critere>
+		<critere nom="Yeux">chiot_tete_yeux</critere>
+		<critere nom="Oreilles">chiot_tete_oreilles</critere>
+	</champ>
+	<champ nom="Cou">
+		<critere>chiot_cou</critere>
+	</champ>
+	<champ nom="Corps">
+		<critere>chiot_corps</critere>
+		<critere nom="Ligne du dessus">chiot_corps_ligne_dessus</critere>
+		<critere nom="Dos">chiot_corps_dos</critere>
+		<critere nom="Croupe">chiot_corps_croupe</critere>
+		<critere nom="Poitrine">chiot_corps_poitrine</critere>
+		<critere nom="Ligne du dessous">chiot_corps_ligne_dessous</critere>
+		<critere nom="Ventre">chiot_corps_ventre</critere>
+		<critere nom="Queue">chiot_corps_queue</critere>
+	</champ>
+	<champ nom="Membres">
+		<critere>chiot_membres</critere>
+		<critere nom="Antérieurs">chiot_membres_anterieurs<sscritere nom="Pieds">chiot_membres_ant_pieds</sscritere>
+		</critere>
+		<critere nom="Postérieurs">chiot_membres_posterieurs<sscritere nom="Pieds">chiot_membres_post_pieds</sscritere>
+		</critere>
+	</champ>
+	<champ nom="Peau">
+		<critere>chiot_peau</critere>
+	</champ>
+	<champ nom="Robe">
+		<critere nom="Pelage">chiot_robe_poils</critere>
+		<critere nom="Couleur">chiot_robe_couleur</critere>
+	</champ>
+</comparaison>

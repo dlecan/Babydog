@@ -1,0 +1,8 @@
+bin
+db/*.MYD
+db/*.frm
+db/data
+db/log
+icons/photos*
+images preview
+

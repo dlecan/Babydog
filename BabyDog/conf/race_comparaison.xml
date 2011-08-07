@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<comparaison>
+	<!--champ nom="">
+		<critere nom="">
+			<element>
+				<sql></sql>
+			</element>
+			<element>
+				<sql></sql>
+			</element>
+		</critere>
+	</champ-->
+	<champ nom="Tête">
+		<critere nom="Stop">
+			<element>
+				<sql>chiot_tete_stop</sql>
+			</element>
+			<element>
+				<sql>std_tete_stop</sql>
+			</element>
+		</critere>
+		<critere nom="Truffe">
+			<element>
+				<sql>chiot_tete_truffe</sql>
+			</element>
+			<element>
+				<sql>std_tete_truffe</sql>
+			</element>
+		</critere>
+		<critere nom="Chanfrein">
+			<element>
+				<sql>chiot_tete_chanfrein</sql>
+			</element>
+			<element>
+				<sql>std_tete_chanfrein</sql>
+			</element>
+		</critere>
+		<critere nom="Museau">
+			<element>
+				<sql>chiot_tete_museau</sql>
+			</element>
+			<element>
+				<sql>std_tete_museau</sql>
+			</element>
+		</critere>
+		<critere nom="Yeux">
+			<element>
+				<sql>chiot_tete_yeux</sql>
+			</element>
+			<element>
+				<sql>std_tete_yeux</sql>
+			</element>
+		</critere>
+		<critere nom="Oreilles">
+			<element>
+				<sql>chiot_tete_oreilles</sql>
+			</element>
+			<element>
+				<sql>std_tete_oreilles</sql>
+			</element>
+		</critere>
+	</champ>
+	<champ nom="Corps">
+		<critere>
+			<element>
+				<sql>chiot_corps</sql>
+			</element>
+			<element>
+				<sql>std_corps</sql>
+			</element>
+		</critere>
+		<critere nom="Ligne du dessus">
+			<element>
+				<sql>chiot_corps_ligne_dessus</sql>
+			</element>
+			<element>
+				<sql>std_corps_ligne_dessus</sql>
+			</element>
+		</critere>
+		<critere nom="Dos">
+			<element>
+				<sql>chiot_corps_dos</sql>
+			</element>
+			<element>
+				<sql>std_corps_dos</sql>
+			</element>
+		</critere>
+		<critere nom="Croupe">
+			<element>
+				<sql>chiot_corps_croupe</sql>
+			</element>
+			<element>
+				<sql>std_corps_croupe</sql>
+			</element>
+		</critere>
+		<critere nom="Poitrine">
+			<element>
+				<sql>chiot_corps_poitrine</sql>
+			</element>
+			<element>
+				<sql>std_corps_poitrine</sql>
+			</element>
+		</critere>
+		<critere nom="Ligne du dessous">
+			<element>
+				<sql>chiot_corps_ligne_dessous</sql>
+			</element>
+			<element>
+				<sql>std_corps_ligne_dessous</sql>
+			</element>
+		</critere>
+		<critere nom="Ventre">
+			<element>
+				<sql>chiot_corps_ventre</sql>
+			</element>
+			<element>
+				<sql>std_corps_ventre</sql>
+			</element>
+		</critere>
+		<critere nom="Queue">
+			<element>
+				<sql>chiot_corps_queue</sql>
+			</element>
+			<element>
+				<sql>std_corps_queue</sql>
+			</element>
+		</critere>
+	</champ>
+	<champ nom="Membres">
+		<critere>
+			<element>
+				<sql>chiot_membres</sql>
+			</element>
+			<element>
+				<sql>std_membres</sql>
+				<sql titre="Antérieurs">std_membres_anterieurs</sql>
+				<sql titre="Postérieurs">std_membres_posterieurs</sql>
+			</element>
+		</critere>
+		<critere nom="Pieds">
+			<element>
+				<sql titre="antérieurs">chiot_membres_ant_pieds</sql>
+			</element>
+			<element>
+				<sql titre="antérieurs">std_membres_ant_pieds</sql>
+			</element>
+			<element>
+				<sql titre="postérieurs">chiot_membres_post_pieds</sql>
+			</element>
+			<element>
+				<sql titre="postérieurs">std_membres_post_pieds</sql>
+			</element>
+		</critere>
+	</champ>
+	<champ nom="Peau">
+		<critere>
+			<element>
+				<sql>chiot_peau</sql>
+			</element>
+			<element>
+				<sql>std_peau</sql>
+			</element>
+		</critere>
+	</champ>
+	<champ nom="Robe">
+		<critere nom="Pelage">
+			<element>
+				<sql>chiot_robe_poils</sql>
+			</element>
+			<element>
+				<sql>std_robe_poils</sql>
+			</element>
+		</critere>
+		<critere nom="Couleur">
+			<element>
+				<sql>chiot_robe_couleur</sql>
+			</element>
+			<element>
+				<sql>std_robe_couleur</sql>
+			</element>
+		</critere>
+	</champ>
+</comparaison>
