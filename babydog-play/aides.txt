@@ -1,0 +1,4 @@
+https://github.com/bcourtine/Sudoku
+https://github.com/loicdescotte/vote4music-scala
+https://github.com/3monkeys/play.rules/blob/master/livre/part02-a-la-decouverte%20des%20modules/ch02-play-et-scala.md
+http://www.touilleur-express.fr/2011/06/06/scala-et-play-framework/
