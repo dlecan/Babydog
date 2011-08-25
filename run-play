@@ -20,6 +20,8 @@ else
 	
     unzip "$PLAY_VERSION.zip" -x *samples-and-tests/* *documentation/* *python/* *support/*
 
+    rm -f "$PLAY_VERSION.zip"
+
     echo "Installation done."
 fi
 
