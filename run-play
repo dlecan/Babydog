@@ -2,4 +2,4 @@
 
 PLAY_HOME=/private/dlecan/play-cloudbees-1.2.3
 
-PLAY_HOME/play $@
+/bin/sh PLAY_HOME/play $@
