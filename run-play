@@ -5,7 +5,7 @@ PLAY_DL_LINK="http://download.playframework.org/releases/$PLAY_VERSION.zip"
 PLAY_HOMES="$WORKSPACE/play-fwk"
 PLAY_HOME="$PLAY_HOMES/$PLAY_VERSION"
 
-if [ -f "$PLAY_HOME/play"]; then
+if [ -f "$PLAY_HOME/play" ]; then
     echo "Play! Framework already installed in workspace"
 	echo "Skip installation."
 else
@@ -18,7 +18,7 @@ else
 
     wget "$PLAY_DL_LINK"
 	
-    unzip -x samples-and-tests documentation "$PLAY_VERSION.zip"
+    unzip "$PLAY_VERSION.zip" -x *samples-and-tests/* *documentation/* *python/* *support/*
 
     echo "Installation done."
 fi
