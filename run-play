@@ -32,6 +32,6 @@ du -h --max-depth=0
 cd "$WORKSPACE"
 python "$PLAY_HOME/play" $@
 
-du -h --max-depth=0
+du -h
 
 rm -rf "$PLAY_HOMES"
