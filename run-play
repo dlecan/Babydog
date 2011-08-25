@@ -27,11 +27,8 @@ fi
 
 echo "Use Play! Framework: $PLAY_HOME"
 
-du -h --max-depth=0
 
 cd "$WORKSPACE"
 python "$PLAY_HOME/play" $@
-
-du -h
 
 rm -rf "$PLAY_HOMES"
