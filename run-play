@@ -16,9 +16,9 @@ else
     
     cd "$PLAY_HOMES"
 
-    wget "$PLAY_DL_LINK"
+    wget -nv "$PLAY_DL_LINK"
 
-    unzip "$PLAY_VERSION.zip" -x *samples-and-tests/* *documentation/* *python/* *support/*
+    unzip -q "$PLAY_VERSION.zip" -x *samples-and-tests/* *documentation/* *python/* *support/*
 
     rm -f "$PLAY_VERSION.zip"
 
