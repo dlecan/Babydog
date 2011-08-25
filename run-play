@@ -1,18 +1,29 @@
 #!/bin/sh
 
-PRIVATE_PLAY_HOME=/private/dlecan/play-cloudbees-1.2.3
-PLAY_HOME="$WORKSPACE/play-fwk"
+PLAY_VERSION=play-1.2.3
+PLAY_DL_LINK="http://download.playframework.org/releases/$PLAY_VERSION.zip"
+PLAY_HOMES="$WORKSPACE/play-fwk"
+PLAY_HOME="$PLAY_HOMES/$PLAY_VERSION"
 
 if [ -d "$PLAY_HOME" ]; then
     echo "Play! Framework already installed in workspace"
-	echo "Skip installation"
+	echo "Skip installation."
 else
 	echo "Play Framework not found in workspace"
 	echo "Installation ..."
-	mkdir -p "$PLAY_HOME"
-	cp -r $PRIVATE_PLAY_HOME/* "$PLAY_HOME"
+
+    mkdir -p "$PLAY_HOME"
+    
+    cd "$PLAY_HOMES"
+
+    wget "$PLAY_DL_LINK"
+	
+    unzip "$PLAY_VERSION.zip"
+
+    echo "Installation done."
 fi
 
 echo "Use Play! Framework: $PLAY_HOME"
 
+cd "$WORKSPACE"
 python "$PLAY_HOME/play" $@
