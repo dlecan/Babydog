@@ -1,5 +1,16 @@
 #!/bin/sh
 
-PLAY_HOME=/private/dlecan/play-cloudbees-1.2.3
+PRIVATE_PLAY_HOME=/private/dlecan/play-cloudbees-1.2.3
+PLAY_HOME="$WORKSPACE/play-fwk"
 
-python $PLAY_HOME/play $@
+if [ -d "$PLAY_HOME" ]; then
+    echo "Play Framework already installed in workspace"
+	echo "Skip installation"
+else
+	echo "Play Framework not found in workspace"
+	echo "Installation ..."
+	mkdir -p "$PLAY_HOME"
+	cp -r $PRIVATE_PLAY_HOME/* "$PLAY_HOME"
+fi
+
+python "$PLAY_HOME/play" $@
