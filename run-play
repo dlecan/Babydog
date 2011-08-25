@@ -18,7 +18,7 @@ else
 
     wget "$PLAY_DL_LINK"
 	
-    unzip "$PLAY_VERSION.zip"
+    unzip "$PLAY_VERSION.zip -x samples-and-tests documentation"
 
     echo "Installation done."
 fi
