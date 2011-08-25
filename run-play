@@ -5,7 +5,7 @@ PLAY_DL_LINK="http://download.playframework.org/releases/$PLAY_VERSION.zip"
 PLAY_HOMES="$WORKSPACE/play-fwk"
 PLAY_HOME="$PLAY_HOMES/$PLAY_VERSION"
 
-if [ -d "$PLAY_HOME" ]; then
+if [ -f "$PLAY_HOME/play"]; then
     echo "Play! Framework already installed in workspace"
 	echo "Skip installation."
 else
