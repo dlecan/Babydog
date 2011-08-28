@@ -5,4 +5,7 @@ BabyDog/log
 PhenoChiot/sql/phenochiot.sql
 PhenoChiot/*.log
 *-src.zip
-play-fwk
+play-fwklogs
+tmp
+logs
+modules

@@ -1,7 +1,10 @@
 @(title:String)
 
 @main(title) {
-    
-    @views.defaults.html.welcome(title)
-    
+	<h1>Soon Babydog here !</h1>
+	
+    <form action="@action(controllers.Application.sayHello)" method="GET">
+        <input type="text" name="myName" /> 
+        <input type="submit" value="Say hello!" />
+    </form>
 }
