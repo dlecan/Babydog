@@ -9,3 +9,4 @@ play-fwklogs
 tmp
 logs
 modules
+play-*
