@@ -6,3 +6,10 @@ couleur de pelage.
 
 Les données des chiots ainsi que les images ne sont pas présentes dans 
 le dépôt (licence propriétaire pour le moment).
+
+Les différentes branches du produit :
+ 
+ - develop : branche de developpement, active
+ - master : branche de "prod", les dev de 'develop' y sont régulièrement mergés.
+
+Cette dernière branche conduit au déploiement automatique de l'application sur http://babydog.dlecan.cloudbees.net/ (au travers d'une PIC disponible ici : https://dlecan.ci.cloudbees.com).
