@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PLAY_VERSION=play-1.2.3
+PLAY_VERSION=play-1.2.4
 PLAY_DL_LINK="http://download.playframework.org/releases/$PLAY_VERSION.zip"
 PLAY_HOMES="$WORKSPACE/play-fwk"
 PLAY_HOME="$PLAY_HOMES/$PLAY_VERSION"
